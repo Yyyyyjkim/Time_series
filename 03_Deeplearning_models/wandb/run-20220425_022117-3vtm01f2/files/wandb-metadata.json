@@ -1,0 +1,27 @@
+{
+    "os": "Linux-5.4.144+-x86_64-with-Ubuntu-18.04-bionic",
+    "python": "3.7.13",
+    "heartbeatAt": "2022-04-25T02:21:23.134949",
+    "startedAt": "2022-04-25T02:21:17.604734",
+    "docker": null,
+    "gpu": "Tesla K80",
+    "gpu_count": 1,
+    "cpu_count": 2,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/root/.local/share/jupyter/runtime/kernel-0ec122e0-3f1f-4a85-81b3-0a12d142de11.json"
+    ],
+    "state": "running",
+    "program": "01_bidirectional_LSTM_wandb.ipynb",
+    "colab": "https://colab.research.google.com/notebook#fileId=1EV3ioK2B3TlYEVNQU4ujQD8cQMvb9RGA",
+    "git": {
+        "remote": "https://github.com/Yyyyyjkim/Time_series.git",
+        "commit": "8f6076d249dd943037c3409fcd0c3d2f8f4a57ca"
+    },
+    "email": null,
+    "root": "/content/drive/Shareddrives/yujung kim/Study/Python/time_series/notebook",
+    "host": "94ded9f7c5d4",
+    "username": "root",
+    "executable": "/usr/bin/python3"
+}

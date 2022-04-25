@@ -1,0 +1,11 @@
+torch.Size([4, 24, 1])
+torch.Size([4, 24, 5])
+torch.Size([4, 24, 1])
+torch.Size([4, 24, 5])
+torch.Size([4, 24, 1])
+torch.Size([4, 24, 5])
+torch.Size([4, 24, 1])
+torch.Size([4, 24, 5])
+torch.Size([1, 24, 1])
+torch.Size([1, 24, 5])
+test loss: 0.04498
