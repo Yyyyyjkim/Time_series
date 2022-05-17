@@ -21,3 +21,4 @@
   - 01_LSTM : seq2seq LSTM 모델 적용 (encoder-decoder 이용한 구조 / bidirectional LSTM 구조)
   - 02_Transformer : transformer 모델 적용 (teacher forcing = 0 or 1)
   - 03_TCN: Temporal Convolutional Network 모델 적용
+  - 04_MTGNN: Multivariate Timeseries Graph Neural Network 모델 
