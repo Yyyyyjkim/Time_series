@@ -10,13 +10,17 @@
   - data composition 2: 예측하고자 하는 시점의 기상 정보를 이용해서 미래 PV 값 예측 (기상예보를 활용하는 경우 적용 가능)
 
 ## 분석 과정
+
 - 01_preprocesing 
   - 01_dataset: 데이터 다운 및 시간 단위 데이터로 변환
   - 02_x_info : x feature 로 사용될 데이터 검색 (pysolar, meteostat 라이브러리 이용)
   - 03_EDA : 기본적인 EDA
+
 - 02_Statistical_models
-  - 01_SARIMAX : SARIMAX 모델 적용
+  - 01_SARIMAX : SARIMA & SARIMAX 모델 적용
+  - 01_SARIMAX(seq2seq): seq2seq 구조와 유사하게 SARIMA & SARIMAX 모델 적용
   - 02_prophet : facebook 에서 발표한 라이브러리 prophet 적용
+
 - 03_Deeplearning_models
   - 01_LSTM : seq2seq LSTM 모델 적용 (encoder-decoder 이용한 구조 / bidirectional LSTM 구조)
   - 02_Transformer : transformer 모델 적용 (teacher forcing = 0 or 1)
