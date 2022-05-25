@@ -22,3 +22,4 @@
   - 02_Transformer : transformer 모델 적용 (teacher forcing = 0 or 1)
   - 03_TCN: Temporal Convolutional Network 모델 적용
   - 04_MTGNN: Multivariate Timeseries Graph Neural Network 모델 
+  - 05_TabNet: TabNet을 이용해서 회귀 모형 적합 (X는 기상정보, y는 pv) -> 시계열 접근 x
